@@ -39,6 +39,11 @@ fun Hello(name: String) {
     Text(text = "Hello $name!")
 }
 
+@Composable
+fun Develop(name: String) {
+    Text(text = "Hello $name!")
+}
+
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
